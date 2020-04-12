@@ -1,0 +1,13 @@
+news_site:
+  eluniversal:
+    url: http://www.eluniversal.com.mx
+    queries:
+      homepage_articles_links: '.field-content a'
+      article_body: '.field-type-text-with-summary'
+      article_title: '.pane-content h1'
+  eltiempo:
+    url: http://www.eltiempo.com
+    queries:
+      homepage_articles_links: '.title-container a'
+      article_body: '.modulos'
+      article_title: '.titulo-principal-bk h1'
